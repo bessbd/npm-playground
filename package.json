@@ -16,5 +16,8 @@
     "url": "https://github.com/bessbd/npm-playground/issues"
   },
   "homepage": "https://github.com/bessbd/npm-playground#readme",
-  "files": "foo"
+  "files": "foo",
+  "publishConfig": {
+    "access": "public"
+  }
 }
