@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- stable
+- '6'
+- '4'
+deploy:
+  provider: npm
+  email: bessbd@gmail.com
+  api_key:
+    secure: nnQbAgKLXEoVkKecY3NCv8apJeQ1zVWzNro38cZ4i8RxQIZCMNQJGbXk83TpWjwcW3Mv8zf5t4kfRsZLIoChCuudEQ5J0PpG5uMpKhcqR4R9rk7G/KhKagrqJQoIJrgY7Co+0f12BA2IAsNTjvhmt5wMQKdEBZX8rschMuXIX+Se3K5Ro7pG13Q3l+20j8wqEYqGVIdK7oJwrqHpqy4Q7PkUqk6RGHleoMkYLtC9TY6hMNyik0+7EaXkHlbiMLhdwc9Kq5BjtA8Fg/kErjcog3ldCrs6jlhlc4b59OSG9OJ8RDAoJoMhlLSCVNjYaXGRbJAFt4hvtdZy4P7d+0AKogGiviCfhc2zfDkwbPApY97quy/bvjaMKjyv8IlDNOlt1muA9tDen3JS7bnU4C0f2CgiF7fQAioHQK8Jhd8mMksDE9kmUNbiC46UbSfX3zlU/uFDfwUrZCTjBlDNiRpNrKplD+XVxxJwj99IiPMR+aCR66Ma1HRbgkNT7Mv8hmqesnqqrzPX0BkC0RWJtcrnzTX/p48Wp1Xk6Ffir7im3uecY2/L6Ez5JUtllj3O+eiz1IIcxfDYXsEFXioDDjZoE+USnCQ4w/gGwrJrY1/hThAw9boA4iWnxtAHwU5CcIh0sYqWPLARITXneY9e7zzN4fekJhS/d2qKbZIxzTHpxKg=
+  on:
+    repo: bessbd/npm-playground
+  skip_cleanup: 'true'
